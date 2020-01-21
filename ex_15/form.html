@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <form action="" method="get" enctype="application/x-www-form-urlencoded">
+            <fieldset>
+                <legend>User Form</legend>
+            <label for="name">Name:</label for="name">
+            <input type="text" name="username" pattern="^[a-zA-Z]+$" placeholder="Input only letters" size="30" maxlength="12" title="Input only letters" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" pattern="\d+" title="Input only numbers" size="30" maxlength="8" placeholder="Input only numbers" required>
+            <br>
+            <label for="birthday">Your birthday:</label>
+            <input id="bday "name="birthday" type="date" value="yyyy-mm-dd">
+            <br>
+            <label for="email">Enter your E-mail:</label>
+            <input type="email" name="email" required>
+            <br>
+            <label for="url">Your website:</label>
+            <input id="url" name="personalsite" type="url" placeholder="https://example.com">
+        </form>
+    </body>
+</html>

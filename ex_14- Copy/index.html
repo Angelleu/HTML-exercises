@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create User</title>
+    </head>
+    <body>
+        <h1>Create User</h1>
+        <form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded">
+            <fieldset>
+                <legend>User Form</legend>
+            <label for="name">Name:</label for="name">
+            <input type="text" name="username" palceholder="username" size="30" maxlength="12">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" size="30" maxlength="8" placeholder="password">
+            <br>
+            <label for="birthday">Your birthday:</label>
+            <input id="bday "name="birthday" type="date" value="yyyy-mm-dd">
+            <br>
+            <label for="email">Enter your E-mail:</label>
+            <input type="email" name="email">
+            <br>
+            <label for="url">Your website:</label>
+            <input id="url" name="personalsite" type="url" placeholder="https://example.com">
+            <div>
+                <p>Select your favorite superheroe</p>
+                <input type="radio" id="superheroe1" name="superheroe" value="Superman">
+                <label for="superheroe1">Superman</label><br>
+                <input type="radio" id="superheroe2" name="superheroe" value="Batman">
+                <label for="superheroe2">Batman</label><br>
+                <input type="radio" id="superheroe3" name="superheroe" value="Wonder Woman" checked>
+                <label for="superheroe3">Wonder Woman</label><br>
+                <input type="radio" id="superheroe4" name="superheroe" value="Flash">
+                <label for="superheroe4">Flash</label><br>
+                <input type="radio" id="superheroe5" name="superheroe" value="Thor">
+                <label for="superheroe5">Thor</label><br>
+                <input type="radio" id="superheroe6" name="superheroe" value="Hulk">
+                <label for="superheroe6">Hulk</label><br>
+            </div>
+            <div>
+                <p>Select your favorite video game</p>
+                <input type="checkbox" name="videogames" value="Fifa" checked="checked">
+                <label for="videogames1">Fifa</label><br>
+                <input type="checkbox" name="videogames" value="NHL">
+                <label for="videogames2">NHL</label><br>
+                <input type="checkbox" name="videogames" value="Residen Evil">
+                <label for="videogames3">Residen Evil</label><br>
+                <input type="checkbox" name="videogames" value="Uncharted" checked="checked">
+                <label for="videogames4">Uncharted</label><br>
+            </div>
+            <input type="hidden" name="user-id" value="2300">
+            <p></p>
+            <input type="image" alt="Login" src="img/login-button-png-12.png" height="10%" width="15%">
+            <button type="submit">Submit!</button>
+            </fieldset>
+            
+        </form>
+        <p></p>
+        <form action=" https://www.google.ca/search" method="get" enctype="application/x-www-form-urlencoded" target="_blank">
+            <label for="search">Questions?</label>
+            <input type="search" name="q">
+            <button>Search</button>
+        </form>
+    </body>
+</html>
